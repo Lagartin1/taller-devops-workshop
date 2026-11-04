@@ -63,13 +63,3 @@ El catálogo incluye productos de ejemplo de Starbucks, Lavazza, Señor K, Marle
 Coffee, Puelo Coffee Roasters y Logitech; sus
 precios son ilustrativos y las imágenes se cargan desde sitios externos.
 
-## Calidad
-
-Para el ejercicio, la implementación del carrito contiene errores deliberados.
-Los casos de `tests/test_cart_edge_cases.py` deben fallar hasta corregirlos.
-
-```bash
-pytest
-ruff check .
-ruff format --check .
-```
